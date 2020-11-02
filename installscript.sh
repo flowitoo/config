@@ -9,6 +9,7 @@ mkdir /home/$USER/Documents/pics
 mv 1.png /home/$USER/Documents/pics;mv 2.png /home/$USER/Documents/pics
 cp i3cfg /home/$USER/.config/i3/config
 mv .bashrc /home/$USER/.bashrc
+source /home/$USER/.bashrc
 echo "bindsym $mod+x exec i3lock -i /home/$USER/Documents/pics/fix2.png" >> /home/$USER/.config/i3/config
 echo "done please chose your background wallpaper"
 nitrogen

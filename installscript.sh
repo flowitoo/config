@@ -1,5 +1,6 @@
 # Downloading everything needed
-sudo pacman -S i3wm i3gaps dmenu nm-applet acpi neofetch lolcat i3status nitrogen pavucontrol
+sudo pacman -S i3wm i3gaps dmenu nm-applet acpi neofetch lolcat i3status nitrogen pavucontrol git
+git clone https://github.com/e1fy/config/
 # Starts to work
 cd config
 convert -resize $(xdpyinfo | grep dimensions | cut -d\  -f7 | cut -dx -f1) 1.png fix1.png

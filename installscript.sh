@@ -5,7 +5,7 @@ git clone https://github.com/e1fy/config/
 cd config
 convert -resize $(xdpyinfo | grep dimensions | cut -d\  -f7 | cut -dx -f1) 1.png fix1.png
 convert -resize $(xdpyinfo | grep dimensions | cut -d\  -f7 | cut -dx -f1) 2.png fix2.png
-if [ ! -d "$DIRECTORY" ]; then
+if [ ! -d "/home/$USER/Documents" ]; then
   mkdir /home/$USER/Documents
 fi
 mkdir /home/$USER/Documents/pics

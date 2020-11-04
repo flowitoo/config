@@ -10,7 +10,7 @@ if [ ! -d "/home/$USER/Documents" ]; then
   mkdir /home/$USER/Documents
 fi
 mkdir /home/$USER/Documents/pics/
-mv 1.png /home/$USER/Documents/pics;mv 2.png /home/$USER/Documents/pics
+mv fix1.png /home/$USER/Documents/pics;mv fix2.png /home/$USER/Documents/pics
 mv i3cfg /home/$USER/.config/i3/config
 mv .bashrc /home/$USER/.bashrc
 source /home/$USER/.bashrc

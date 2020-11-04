@@ -15,5 +15,11 @@ mv i3cfg /home/$USER/.config/i3/config
 mv .bashrc /home/$USER/.bashrc
 source /home/$USER/.bashrc
 echo "bindsym $mod+x exec i3lock -i /home/$USER/Documents/pics/fix2.png" >> /home/$USER/.config/i3/config
-echo "done please chose your background wallpaper"
-nitrogen
+# more installing
+sudo pacman -S smbclient nmap metasploit binwalk sqlmap netcat tor hexedit radare2
+cd ~/
+git clone https://aur.archlinux.org/gobuster-git/
+cd gobuster-git
+makepkg -s 
+sudo pacman -U *.tar.zst
+nitrogen /home/$USER/Documents/pics/

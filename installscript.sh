@@ -14,7 +14,7 @@ mv 1.png /home/$USER/Documents/pics;mv 2.png /home/$USER/Documents/pics
 mv i3cfg /home/$USER/.config/i3/config
 mv .bashrc /home/$USER/.bashrc
 source /home/$USER/.bashrc
-echo "bindsym $mod+x exec i3lock -i /home/$USER/Documents/pics/fix2.png" >> /home/$USER/.config/i3/config
+echo "bindsym \$mod+x exec i3lock -i /home/$USER/Documents/pics/fix2.png" >> /home/$USER/.config/i3/config
 # more installing
 sudo pacman -S smbclient nmap metasploit binwalk sqlmap netcat tor hexedit radare2
 sudo systemctl enable tor; sudo systemctl start tor

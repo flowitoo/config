@@ -1,4 +1,5 @@
 # Downloading everything needed
+sudo pacman -Syu
 sudo pacman -S i3-wm i3-gaps i3lock dmenu network-manager-applet acpi neofetch lolcat i3status nitrogen pavucontrol git
 git clone https://github.com/e1fy/config/
 # Starts to work

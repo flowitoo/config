@@ -9,7 +9,7 @@ convert -resize $(xdpyinfo | grep dimensions | cut -d\  -f7 | cut -dx -f1) 2.png
 if [ ! -d "/home/$USER/Documents" ]; then
   mkdir /home/$USER/Documents
 fi
-mkdir /home/$USER/Documents/pics
+mkdir /home/$USER/Documents/pics/
 mv 1.png /home/$USER/Documents/pics;mv 2.png /home/$USER/Documents/pics
 mv i3cfg /home/$USER/.config/i3/config
 mv .bashrc /home/$USER/.bashrc

@@ -140,7 +140,7 @@ exec compton
 exec --no-startup-id nitrogen --restore
 
 # lock screen
-bindsym $mod+x exec i3lock -i /home/elf/Documents/pfps/fix.png
+bindsym $mod+x exec i3lock
 
 # i3gaps configuration
 gaps inner 10

@@ -133,9 +133,9 @@ bar{
 client.focused          #ffffff00 #ffffff00 #ffffff00 #2e9ef4   #285577
 client.unfocused        #ffffff00 #ffffff00 #ffffff00 #292d2e   #222222
 
-# transparent terminal
-#exec xcompmgr -c -f -n
+# compositor
 exec compton
+
 # wallpaper engine 
 exec --no-startup-id nitrogen --restore
 
